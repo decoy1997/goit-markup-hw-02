@@ -1,0 +1,51 @@
+/* Main background color #FFFFFF */
+
+/* Footer color #000000 */
+
+/* Main text color #212121 */
+
+/* Secondary text color #757575 */
+
+/* Logo specific color #2196F3 */
+
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --logo-specific-color: #2196f3;
+  --background-color: #ffffff;
+  --footer-color: #000000;
+}
+
+.list {
+  list-style: none;
+}
+/* Site links */
+.site-nav .link {
+  color: var(--main-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--logo-specific-color);
+}
+.site-nav .link.current {
+  color: var(--logo-specific-color);
+}
+/* header contacts */
+.contacts {
+  color: var(--secondary-text-color);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--logo-specific-color);
+}
+
+/* Section */
+.section-title {
+  color: var(--main-text-color);
+}
+
+/* Button */
+.button {
+  color: var(--background-color);
+  background-color: var(--logo-specific-color);
+}
