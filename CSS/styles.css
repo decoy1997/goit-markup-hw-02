@@ -163,19 +163,23 @@ footer {
 }
 
 /* Portfolio.html */
+
+/* Filter buttons */
 .button-portfolio {
   background-color: var(--our-team-bg);
-
+  color: var(--main-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
 
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
-  color: var(--logo-specific-color);
+  color: var(--background-color);
+  background-color: var(--logo-specific-color);
 }
 
 /* Main section(Portfolio) */
