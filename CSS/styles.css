@@ -22,6 +22,7 @@ body {
   background-color: var(--background-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03cm;
+  color: var(--main-text-color);
 }
 
 .list {
@@ -103,8 +104,6 @@ body {
 
 /* Section */
 .section-title {
-  color: var(--main-text-color);
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -113,7 +112,6 @@ body {
 
 /* Feature list */
 .features-section .title {
-  color: var(--main-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.15;
@@ -130,7 +128,6 @@ body {
   background-color: var(--our-team-bg);
 }
 .team-section .title {
-  color: var(--main-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -163,4 +160,34 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+}
+
+/* Portfolio.html */
+.button-portfolio {
+  background-color: var(--our-team-bg);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--logo-specific-color);
+}
+
+/* Main section(Portfolio) */
+.portfolio-main-section .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+}
+.portfolio-main-section .text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
